@@ -1,0 +1,10 @@
+def aumento(x,y):
+  z=((y/x)*100)-100
+  return z
+
+print('Digite o valor antigo do produto: ')
+vant=float(input())
+print('Digite o valor atual do produto: ')
+vatual=float(input())
+a=aumento(vant,vatual)
+print('o aumento foi de',a,'%')
